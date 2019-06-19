@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="orangeLine">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinkLine">
+      <LineStyle>
+        <color>ffff33ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>ff66a1cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>ffcc00cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="yellowLine">
+      <LineStyle>
+        <color>ff61f2f2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <date>1-20-19</date>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+-87.89289951324463,41.97881025520548,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+        <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <date>1-20-19</date>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+-87.7565735578537,41.85182988575514,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+  </Document>
+</kml>
