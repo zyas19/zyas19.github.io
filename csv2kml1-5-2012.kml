@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://earth.google.com/kml/2.1'>
 <Document>
-   <name>test.kml</name>
+   <name>test kml</name>
 
     <Style id="flightPath">
       <LineStyle>
@@ -15,9 +15,10 @@
        <date>1-5-2012</date>
        <styleUrl>#flightPath</styleUrl>
        <time>18:32</time>
-       <Point>
+       <LineString>
+            <altitudeMode>relative</altitudeMode>
            <coordinates>36.6069,-97.5341</coordinates>
-       </Point>
+       </LineString>
    </Placemark>
    <Placemark>
        <name>2</name>
@@ -25,7 +26,6 @@
        <date>1-5-2012</date>
        <time>18:41</time>
        <Point>
-
            <coordinates>36.621,-97.469</coordinates>
        </Point>
    </Placemark>
