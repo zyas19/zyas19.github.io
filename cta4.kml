@@ -61,7 +61,6 @@
     <Placemark>
       <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
-      <date>1-20-19</date>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
