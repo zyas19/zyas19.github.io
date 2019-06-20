@@ -115,6 +115,22 @@
     </Placemark>
 
     <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <date>1-20-19</date>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+-87.89289951324463,41.97881025520548,0
+-87.89184808731079,41.97788506340239,0
+-87.89150476455688,41.97762983571196,0
+-87.8912901878357,41.97750222148314,0
+-87.89090394973755,41.977326751500996,0
+    </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
       <name>Red Line</name>
       <styleUrl>#redLine</styleUrl>
       <LineString>
