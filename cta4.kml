@@ -65,7 +65,7 @@
     </Style>
 
     <Placemark>
-      <name>Blue Line</name>
+      <name>Blue Line 1</name>
       <styleUrl>#blueLine</styleUrl>
       <ExtendedData>
         <Data name="time">
@@ -83,9 +83,13 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Blue Line</name>
+      <name>Blue Line 2</name>
       <styleUrl>#blueLine</styleUrl>
-      <time>09:20</time>
+      <description>
+<![CDATA[
+<table cellpadding="1" cellspacing="1"> <tr> <td>time:</td> <td> 9:20</td> </tr> <tr> <td>location:</td> <td>-87.89184808731079,41.97788506340239,0</td> </tr> <tr> <td>altitude:</td> <td>1500</td> </tr></table>
+]]>
+      </description>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
