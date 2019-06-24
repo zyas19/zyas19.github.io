@@ -14,6 +14,12 @@
         <color>ffff0000</color>
         <width>4</width>
       </LineStyle>
+      <BalloonStyle>
+        <text>$[time]</text>
+      </BalloonStyle>
+      <BalloonStyle>
+        <text>$[altitude]</text>
+      </BalloonStyle>
     </Style>
     <Style id="redLine">
       <LineStyle>
@@ -61,7 +67,14 @@
     <Placemark>
       <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
-      <time>09:10</time>
+      <ExtendedData>
+        <Data name="time">
+        <value>9:20</value>
+        </Data>
+        <Data name="altitude">
+        <value>1230.4</value>
+        </Data>
+      </ExtendedData>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
