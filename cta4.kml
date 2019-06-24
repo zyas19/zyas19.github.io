@@ -27,7 +27,7 @@
         <width>4</width>
       </LineStyle>
     </Style>
-    <Style id="orangeLine">
+    <Style id="orangeLine"> 
       <LineStyle>
         <color>ff00ccff</color>
         <width>4</width>
