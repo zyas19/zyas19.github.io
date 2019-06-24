@@ -59,7 +59,7 @@
     </Style>
 
     <Placemark>
-      <name>Blue Line 1</name>
+      <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
       <time>09:10</time>
       <LineString>
@@ -70,7 +70,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Blue Line 2</name>
+      <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
       <time>09:20</time>
       <LineString>
@@ -81,7 +81,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Blue Line 3</name>
+      <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
       <time>09:30</time>
       <LineString>
@@ -92,7 +92,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Blue Line 4</name>
+      <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
       <time>09:40</time>
       <LineString>
@@ -103,7 +103,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Blue Line 5</name>
+      <name>Blue Line</name>
       <styleUrl>#blueLine</styleUrl>
       <time>09:50</time>
       <LineString>
