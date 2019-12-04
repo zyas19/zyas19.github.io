@@ -168,12 +168,12 @@ header table {
     background-size:cover;
     background-repeat:no-repeat;
 }
-#work {
+#domain {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#work h1 {
+#domain h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:6%;
@@ -195,12 +195,12 @@ header table {
     transform: scale(1.1);
     cursor: pointer;
 }
-#bio {
+#elements {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
-#bio h1 {
+#elements h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:8%;
