@@ -99,7 +99,7 @@ header table {
     border-bottom:2px solid #fff;
 }
 #top_part {
-    width:100%;
+    width:50%;
     border:2vh solid #fff;
 }
 #top_part tr td{
@@ -201,6 +201,31 @@ header table {
     font-weight:bold;
 }
 #elements h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:8%;
+}
+#vocab {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#vocab h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:8%;
+}
+#downloads {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#essay {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#essay h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:8%;
