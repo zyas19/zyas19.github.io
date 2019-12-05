@@ -118,6 +118,14 @@ header table {
     font-size:45px;
     word-wrap:break-word;
 }
+#about table {
+    width:70%;
+    margin-top:4vh;
+}
+#about table tr td {
+    width:20% !important;
+    text-align:left;
+}
 .social {
     color:rgb(255, 44, 90);
     font-size:23px;
