@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cdwalite="https://www.getty.edu/research/publications/electronic_publications/cdwa/"
+  xmlns:utk="https://www.utk.edu/elements/">
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+  <xs:import namespace="https://www.getty.edu/research/publications/electronic_publications/cdwa/"
+    schemaLocation="cdwalite.xsd"/>
+  <xs:import namespace="https://www.utk.edu/elements/" schemaLocation="utk.xsd"/>
+  <xs:element name="record">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dc:creator"/>
+        <xs:element ref="utk:Subject"/>
+        <xs:element ref="dc:title"/>
+        <xs:element maxOccurs="unbounded" ref="cdwalite:indexingMaterialsTechSet"/>
+        <xs:element ref="utk:image"/>
+        <xs:element ref="utk:date"/>
+        <xs:element ref="dc:description"/>
+        <xs:element ref="cdwalite:indexingMeasurementsSet"/>
+        <xs:element maxOccurs="unbounded" ref="cdwalite:displayMaterialsTech"/>
+        <xs:element ref="dc:format"/>
+        <xs:element maxOccurs="unbounded" ref="dc:relation" minOccurs="0"/>
+        <xs:element ref="utk:rating"/>
+        <xs:element ref="utk:numRaters"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
