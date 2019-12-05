@@ -205,30 +205,7 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:20%;
 }
-#spec-table table
-{
-    overflow-x: auto;
-    font-size: 32px;
-    font: inherit;
-    vertical-align: baseline;
-}    
-#spec-table tr
-{
-    background: rgb(220,220,220);
-}
-#spec-table td
-{
-    padding:5px;
-    border: 2px solid rgb(192,192,192);
-}
-#spec-table tr: nth-child(odd)
-{
-    background: rgb(220,220,220);
-}
-#spec-table tr: nth-child(even)
-{
-    background: rgb(255,255,255);
-}
+
 #vocab {
     width:92vw;
     padding:6vh 4vw;
