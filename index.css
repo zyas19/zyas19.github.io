@@ -395,13 +395,19 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
-    #work h1 {
+    #domain h1 {
         width:19%;
     }
-    #bio h1 {
-        width:25%;
+    #elemets h1 {
+        width:40%;
     }
-    #contact h1 {
+    #vocab h1 {
+        width:40%;
+    }
+    #downloads h1 {
+        width:33%;
+    }
+    #essay h1 {
         width:33%;
     }
     header {
