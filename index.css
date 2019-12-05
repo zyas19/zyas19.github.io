@@ -205,7 +205,7 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:20%;
 }
-#spec-table
+#spec-table table tr td
 {
     overflow-x: auto;
     margin: 0;
