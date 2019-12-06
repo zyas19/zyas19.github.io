@@ -205,10 +205,10 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:25%;
 }
-spec-table th td {
+#spec-table th td {
     border-bottom: 1px solid #ddd;
 }    
-spec-table tr:nth-child(even) {
+#spec-table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 #vocab {
