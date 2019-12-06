@@ -206,7 +206,7 @@ header table {
     width:25%;
 }
 #spec-table table{
-    width:100%
+    width:100%;
 }
 #spec-table th td {
     border-bottom: 1px solid #ddd;
