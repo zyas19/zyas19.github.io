@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://www.utk.edu/elements/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="https://www.getty.edu/research/publications/electronic_publications/cdwa/" xmlns:utk="https://www.utk.edu/elements/">
+  <xs:import schemaLocation="Assignment4Schema_Stoss3.xsd"/>
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+  <xs:import namespace="https://www.getty.edu/research/publications/electronic_publications/cdwa/" schemaLocation="cdwalite.xsd"/>
+  <xs:element name="Subject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="utk:category"/>
+        <xs:element ref="utk:sub-category"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="category">
+    <xs:complexType mixed="true">
+      <xs:attribute name="termsource" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sub-category">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="termsource" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image" type="xs:anyURI"/>
+  <xs:element name="date">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dc:dateCreated"/>
+        <xs:element ref="dc:dateModified"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rating" type="xs:string"/>
+  <xs:element name="numRaters" type="xs:integer"/>
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://purl.org/dc/elements/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="https://www.getty.edu/research/publications/electronic_publications/cdwa/" xmlns:utk="https://www.utk.edu/elements/">
+  <xs:import schemaLocation="Assignment4Schema_Stoss3.xsd"/>
+  <xs:import namespace="https://www.getty.edu/research/publications/electronic_publications/cdwa/" schemaLocation="cdwalite.xsd"/>
+  <xs:import namespace="https://www.utk.edu/elements/" schemaLocation="utk.xsd"/>
+  <xs:element name="creator" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="dateCreated" type="xs:date"/>
+  <xs:element name="dateModified" type="xs:date"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="format" type="xs:anyURI"/>
+  <xs:element name="relation" type="xs:anyURI"/>
+</xs:schema>

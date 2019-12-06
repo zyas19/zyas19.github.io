@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://www.getty.edu/research/publications/electronic_publications/cdwa/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="https://www.getty.edu/research/publications/electronic_publications/cdwa/" xmlns:utk="https://www.utk.edu/elements/">
+  <xs:import schemaLocation="Assignment4Schema_Stoss3.xsd"/>
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+  <xs:import namespace="https://www.utk.edu/elements/" schemaLocation="utk.xsd"/>
+  <xs:element name="indexingMaterialsTechSet" type="xs:string"/>
+  <xs:element name="indexingMeasurementsSet" type="xs:time"/>
+  <xs:element name="displayMaterialsTech">
+    <xs:complexType mixed="true">
+      <xs:attribute name="termsource" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
