@@ -33,7 +33,7 @@ body {
     100% {transform: rotate(360deg);}
 }
 header {
-    width:96vw;
+    width:92vw;
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
@@ -399,10 +399,10 @@ button:focus {
         width:19%;
     }
     #elemets h1 {
-        width:40%;
+        width:33%;
     }
     #vocab h1 {
-        width:40%;
+        width:33%;
     }
     #downloads h1 {
         width:33%;
