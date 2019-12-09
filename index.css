@@ -210,7 +210,7 @@ header table {
     background-color: #f2f2f2;
 }
 #spec-table td:nth-child(odd) {
-    width:70px;
+    width:200px;
 }
 #vocab {
     width:92vw;
