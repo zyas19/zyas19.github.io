@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/yasmins/Documents/UTK%20School/INSC%20524%20Metadata/Assignment4Schema_Stoss3.xsd">
+    <creator xmlns="http://purl.org/dc/elements/1.1/">Stoss, Yasmin</creator>
+    <Subject xmlns="https://www.utk.edu/elements/">
+        <category termsource="UTK">Furniture</category>
+        <sub-category termsource="UTK">Bar</sub-category>
+    </Subject>
+    <title xmlns="http://purl.org/dc/elements/1.1/">How to finish a live edge wood bar</title>
+    <indexingMaterialsTechSet xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/">Live edge slab of wood</indexingMaterialsTechSet>
+    <indexingMaterialsTechSet xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/">legs(material of your choice)</indexingMaterialsTechSet>
+    <image xmlns="https://www.utk.edu/elements/">https://zyas19.github.io/IMG_20191208_203536.jpg</image>
+    <date xmlns="https://www.utk.edu/elements/">
+        <dateCreated xmlns="http://purl.org/dc/elements/1.1/">2019-12-03</dateCreated>
+        <dateModified xmlns="http://purl.org/dc/elements/1.1/">2019-12-07</dateModified>
+    </date>
+    <description xmlns="http://purl.org/dc/elements/1.1/">This is a how to guide for finishing a live edge wood slab for a bar top. The guide includes steps on removing the bark, sanding, and coating the wood slab as well as how to install the bar in your home.</description>
+    <indexingMeasurementsSet xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/">30:00:00</indexingMeasurementsSet>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">Chisel</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">60 grit sandpaper</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">120 grit sandpaper</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">electric sander</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">oil based polyerethane</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">drill</displayMaterialsTech>
+    <displayMaterialsTech xmlns="https://www.getty.edu/research/publications/electronic_publications/cdwa/" termsource="UTK">screwdriver</displayMaterialsTech>
+    <format xmlns="http://purl.org/dc/elements/1.1/">text</format>
+    <rating xmlns="https://www.utk.edu/elements/">4/5</rating>
+    <numRaters xmlns="https://www.utk.edu/elements/">14</numRaters>
+</record>
